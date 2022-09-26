@@ -26,7 +26,22 @@ This is a nonlinear elastic constitutive model(Duncan-CHANG EB) UMAT widely used
 	仿真时修正除上面外，还有简单的拉裂修正，详见UMAT。
 
 
-3. 实在不行，就手动操作吧。验证结果：
+3. 实在不行，就手动操作吧。
+使用时只需在材料属性那儿输入10个模型参数，并给定材料密度并设置12个非独立变量即可。
+![image](https://user-images.githubusercontent.com/21994802/192256306-b4e13486-5d90-4604-bd25-9257fc0e1a48.png)
+![image](https://user-images.githubusercontent.com/21994802/192256264-51b17e93-51e1-430e-8697-0d23a36ac1dd.png)
+![image](https://user-images.githubusercontent.com/21994802/192256201-e9bba92b-cf26-4cb3-b2f5-c08a4d97f166.png)
+
+求解页面可以不做特殊设置，也可以采用准牛顿方法：
+
+![Image](https://user-images.githubusercontent.com/21994802/192255520-cbc392ed-07ce-4ea4-b511-609ad832483d.png)
+
+abaqus使用umat方法：
+
+![image](https://user-images.githubusercontent.com/21994802/192256551-7e998907-e522-4cd4-9980-aa110731db8f.png)
+
+验证结果：
+
 ![duncan-e1-q](https://user-images.githubusercontent.com/21994802/192254423-59b54a90-9813-4d77-bdde-7bbe70182532.png)
 ![duncan-e1-ev](https://user-images.githubusercontent.com/21994802/192254464-655c0d67-ad8a-4d94-b668-9620a2c07f6c.png)
 
