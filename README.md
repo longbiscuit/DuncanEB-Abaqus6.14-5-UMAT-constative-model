@@ -39,7 +39,7 @@ sc=3000;% 围压
 %   K n Rf c fai dfai Kb m Kur Pa s1Ms3max s3max ssm  ，后面三个参数这个版本的umat不用了，可以不写，写了也没用。
  x=[1075,  0.33,  0.77,  0.0,  46.9,  6.5,  550,  0.25,  2150,  101.325,  0.0,  0.0,  0.0,]; %DuncanEB本构模型参数
  
- 5. matlab代码计算理论值 
+ 5. 邓肯-张 EB模型的matlab代码，用于计算理论值 
 
 ``` matlab
 clc;
