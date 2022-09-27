@@ -1,4 +1,4 @@
-# Duncan EB-Abaqus6.14-5-UMAT-constative-model
+# Duncan-Chang EB model-Abaqus6.14-5-UMAT-constative-model
 This is a nonlinear elastic constitutive model(Duncan-CHANG EB) UMAT widely used in the field of geotechnical engineering. It can be used in abaqus6.14-5 to calculate the dam settlement deformation.
 
 
